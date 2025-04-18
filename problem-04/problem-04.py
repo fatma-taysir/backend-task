@@ -9,6 +9,7 @@ if __name__ == "__main__":
             return func1(func2(*args, **kwargs))
         return inner_function
         
+        
     def inc(x):
         return x + 1
     
